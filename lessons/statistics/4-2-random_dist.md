@@ -23,4 +23,4 @@ tp.Cdf(cdf)
 tp.Config(xlabel = 'numbers', ylabel = 'probability')
 ```
 
-The distribution is uniform. Every number has an equal probability of being generated and the cumulative probability increases linearly. The numbers generated are truly random.
+>>The distribution is uniform. Every number has an equal probability of being generated and the cumulative probability increases linearly. The numbers generated are truly random.
