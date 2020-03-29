@@ -47,5 +47,4 @@ for x in biased_CPH.keys():
     blength += biased_CPH[x]
     
 biased_mean = total/length
-biased_mean
 ```
