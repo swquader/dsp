@@ -20,12 +20,14 @@ CPH_pmf = ts.Pmf(p)
 tp.Hist(CPH_pmf)
 tp.Config(xlabel = 'number of children', ylabel = 'probability')
 
+
 #mean of actual distribution
 total = 0
 for x in children_per_hh.index:
     total += x*children_per_hh[x]
     
 mean = total/children_per_hh.sum()
+
 
 #biased distribution
 biased_CPH = {}
@@ -37,6 +39,7 @@ biased_pmf = ts.Pmf(biased_CPH)
 
 tp.Hist(biased_pmf)
 tp.Config(xlabel = 'number of children', ylabel = 'biased probability')
+
 
 #mean of biased distribution
 btotal = 0
